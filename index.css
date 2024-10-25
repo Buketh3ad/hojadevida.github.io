@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+.calt-contenedor {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.calt-cabecera {
+    text-align: center;
+    padding: 2px;
+    background-image: url(https://concepto.de/wp-content/uploads/2018/08/software-de-sistema-1-e1534948748523.jpg);
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.calt-foto {
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    
+
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #2447e2;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+    
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3.5;
+}
+
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+
+.calt-info {
+    text-align: center;
+}
+
+.Boton {
+    width: 30px;
+    height: 30px;
+    padding: 10xp 20px;
+  
+    
+    border-radius: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    background-color: #2447e2;
+    background-size:cover
+    box-shadow 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Boton:hover{
+transform: scale(1.05)
+}
+
+.Contenedor{
+    text-align: center;
+    
+}
+
+.imagen-enlace{
+    width: 26px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    
+}
+
+.imagen-enlace:hover{
+    transform: scale(1.05);
+}
